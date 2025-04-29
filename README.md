@@ -1,6 +1,6 @@
 # Vehicle Damage Detection Classification
 
-This repository contains a deep learning model for classifying vehicle damage into three categories: **minor**, **moderate**, and **severe**. The model is trained using the **InceptionV3** architecture, which is pre-trained on ImageNet, and fine-tuned for vehicle damage classification. The goal is to predict the severity of vehicle damage based on an input image and provide an estimated repair cost for each category.
+This repository contains a deep learning model for classifying vehicle damage into three categories: **minor**, **moderate**, and **severe**. The model is trained using the **InceptionV3** architecture, which is pre-trained on ImageNet, and fine-tuned for vehicle damage classification. The goal is to predict the severity of vehicle damage based on an input image and later it was updated to provide an estimated repair cost for each category.
 
 ## Table of Contents
 
@@ -17,6 +17,10 @@ This project uses a convolutional neural network (CNN) built on top of the **Inc
 - **Minor Damage**: Small scratches, dents, or minor cracks.
 - **Moderate Damage**: Larger dents, moderate scratches, or cracks.
 - **Severe Damage**: Extensive damage, large cracks, or broken parts.
+
+![WhatsApp Image 2025-04-29 at 11 52 44 AM](https://github.com/user-attachments/assets/b914204f-fa34-44c1-82ec-7670297dc254)
+![WhatsApp Image 2025-04-29 at 11 52 45 AM](https://github.com/user-attachments/assets/95132e40-fa4d-4145-bc08-b8cefb08c07a)
+  
 
 ## Dataset
 
