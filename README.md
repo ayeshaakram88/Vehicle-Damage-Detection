@@ -7,6 +7,7 @@ This repository contains a deep learning model for classifying vehicle damage in
 - [Project Description](#project-description)
 - [Dataset](#dataset)
 - [Steps to Run](#steps-to-run)
+- [Installation](#installation)
 
 
 ## Project Description
@@ -30,6 +31,7 @@ The images are labeled into three categories: `01-minor`, `02-moderate`, and `03
 
 Run the following commands on **Google Colab**, ensuring a fast internet speed:
 
+```bash
 1. from google.colab import drive
 drive.mount('/content/drive')
 
