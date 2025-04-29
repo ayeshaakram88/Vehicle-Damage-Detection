@@ -6,6 +6,7 @@ This repository contains a deep learning model for classifying vehicle damage in
 
 - [Project Description](#project-description)
 - [Dataset](#dataset)
+- [Steps to Run](#steps-to-run)
 
 
 ## Project Description
@@ -24,6 +25,21 @@ The dataset used in this project is located in the `data3a` directory, which con
 - `test`: Test images to evaluate the final model.
 
 The images are labeled into three categories: `01-minor`, `02-moderate`, and `03-severe`.
+
+## Steps to Run
+
+Run the following commands on **Google Colab**, ensuring a fast internet speed:
+
+1. from google.colab import drive
+drive.mount('/content/drive')
+
+2. !pip install keras
+
+3. May or may not opt for updates.
+
+4. ! python /content/drive/MyDrive/DIP/project/main.py
+
+5. ! python /content/drive/MyDrive/DIP/project/run.py
 
 ## Installation
 
