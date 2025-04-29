@@ -1,4 +1,4 @@
-# Vehicle Damage Detection
+# Vehicle Damage Detection Classification
 
 This repository contains a deep learning model for classifying vehicle damage into three categories: **minor**, **moderate**, and **severe**. The model is trained using the **InceptionV3** architecture, which is pre-trained on ImageNet, and fine-tuned for vehicle damage classification. The goal is to predict the severity of vehicle damage based on an input image and provide an estimated repair cost for each category.
 
@@ -39,13 +39,13 @@ drive.mount('/content/drive')
 
 3. May or may not opt for updates.
 
-4. ! python /content/drive/MyDrive/DIP/project/main.py
+4. ! python /content/drive/path/to/main.py
 
-5. ! python /content/drive/MyDrive/DIP/project/run.py
+5. ! python /content/drive//path/to/run.py
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ayeshaakram88/Vehicle-Damage-Detection.git
-   cd Vehicle-Damage-Detection
+   git clone https://github.com/ayeshaakram88/Vehicle-Damage-Detection-Classification.git
+   cd Vehicle-Damage-Detection-Classification
